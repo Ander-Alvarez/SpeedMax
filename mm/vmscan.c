@@ -2731,9 +2731,6 @@ out:
 				    low_wmark_pages(zone), *classzone_idx,
 				    alloc_flags))
 				zones_need_compaction = 0;
-
-			/* If balanced, clear the congested flag */
-			zone_clear_flag(zone, ZONE_CONGESTED);
 		}
 
 		if (zones_need_compaction)
