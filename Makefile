@@ -1,7 +1,7 @@
 VERSION = 3
 PATCHLEVEL = 4
 SUBLEVEL = 42
-EXTRAVERSION = -r1b
+EXTRAVERSION = -r2 Powerful
 NAME = Saber-toothed Squirrel
 
 # *DOCUMENTATION*
